@@ -1,0 +1,8 @@
+[package]
+name = "read-number"
+version = "0.0.1"
+license = "MIT"
+
+[dependencies]
+libc = "*"
+nom = "^1.2.4"

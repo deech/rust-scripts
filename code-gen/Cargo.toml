@@ -1,0 +1,11 @@
+[package]
+name = "hello_world"
+version = "0.3.0"
+
+[features]
+default = ["aster/with-syntex", "syntex_syntax"]
+nightly = []
+
+[dependencies]
+aster = { version = "*", default_features = false }
+syntex_syntax = { version = "*", optional = true }
